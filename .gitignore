@@ -1,0 +1,55 @@
+# Remix generated files
+artifacts/
+.deps/
+.states/
+
+# Build / cache
+cache/
+build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Coverage
+coverage/
+
+# Solidity tooling
+broadcast/
+out/
+lib/
+
+# Foundry
+forge-cache/
+
+# Hardhat
+typechain/
+typechain-types/
+
+# Misc
+*.bak
